@@ -1,7 +1,8 @@
 import requests
 import pandas as pd
 
-def fetch_data(api_url):
+# fetch data from an url
+def fetch_data_from_url(api_url):
     response = requests.get(api_url)
     if response.status_code == 200:
         data = response.json()
@@ -11,8 +12,8 @@ def fetch_data(api_url):
         print(f"Failed to fetch data: {response.status_code}")
         return None
 
-def process_data(df):
-    # Chỉ lấy các cột cần thiết
-    processed_df = df[['userId', 'id', 'title', 'body']]
-    # Thực hiện các bước xử lý dữ liệu cần thiết khác
-    return processed_df 
+# fetch data from an excel file
+def fetch_data_from_excel(excel_file=None):
+    df = pd.read_excel(excel_file)
+    return df
+

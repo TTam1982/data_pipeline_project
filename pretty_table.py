@@ -4,7 +4,7 @@ from prettytable import PrettyTable
 def fetch_data(db_name):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM posts")
+    cursor.execute("SELECT * FROM delegations")
     rows = cursor.fetchall()
     columns = [desc[0] for desc in cursor.description]
     conn.close()
