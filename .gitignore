@@ -1,6 +1,3 @@
-# Ignore Excel files
-Delegations.xlsx
-
 # Ignore database files
 data.db
 
@@ -11,6 +8,7 @@ __pycache__/
 # Ignore virtual environment directories
 venv/
 env/
+datasets/
 
 # Ignore system files
 .DS_Store
