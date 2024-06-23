@@ -23,6 +23,17 @@ Data Engineer (Kỹ sư Dữ liệu) chịu trách nhiệm xây dựng, duy trì
    - Đảm bảo an ninh dữ liệu và tuân thủ các quy định về bảo vệ dữ liệu.
    - Quản lý quyền truy cập và bảo vệ dữ liệu nhạy cảm.
 
+6. **Các công việc khác của Data Engineer**
+   - Design and implement scalable, reliable data pipeline including ingestion, process, and analysis of data coming from diverse sources.
+   - Develop data models, schemas and data Warehouse.
+   - Develop data services to enable user-facing analytics and model inference.
+   - Collaborate with Data Scientists to design and deploy a machine learning pipeline to enable quick life-cycle release.
+   - Collaborate with Leaders and Data Analysts to define key metrics and prepare data pipelines to help an internal team perform self-service on the analytical platform.
+   - Building and maintaining ETL pipelines (Airflow, Nifi)
+   - Implement and monitor data quality checks to maintain high standards of data quality.
+   - Experience with DataOps
+
+
 ### Ngôn Ngữ Lập Trình và Công Cụ
 
 #### Ngôn Ngữ Lập Trình
@@ -57,6 +68,8 @@ Data Engineer (Kỹ sư Dữ liệu) chịu trách nhiệm xây dựng, duy trì
 
 5. **ETL Tools (Extract, Transform, Load):**
    - Apache Nifi, Talend, Informatica.
+     - Postgres Database name: myETLni
+     - 
 
 6. **Công Cụ Đọc Dữ Liệu Streaming:**
    - Apache Kafka, Apache Flink.
