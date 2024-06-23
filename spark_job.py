@@ -3,6 +3,9 @@ import os
 
 # Đường dẫn đến tệp CSV
 SOURCE_CSV_FILE = os.path.abspath("./datasets/dataset-for-bank-loan-prediction.csv")
+# Đường dẫn lưu kết quả
+OUTPUT_CSV_FILE = os.path.abspath("./datasets/dataset-for-bank-loan-prediction_filtered_cs.csv")
+CREDIT_SCORE ="Credit Score"
 
 # Kiểm tra tệp có tồn tại không
 if not os.path.isfile(SOURCE_CSV_FILE):
@@ -25,13 +28,10 @@ except Exception as e:
 df.show()
 
 # Thực hiện một số thao tác xử lý dữ liệu
-df_filtered = df.filter(df["Credit Score"].isNotNull())
+df_filtered = df.filter(df[CREDIT_SCORE].isNotNull())
 
 # Hiển thị dữ liệu đã được lọc
 df_filtered.show()
-
-# Đường dẫn lưu kết quả
-OUTPUT_CSV_FILE = os.path.abspath("./datasets/dataset-for-bank-loan-prediction_filtered_cs.csv")
 
 # Lưu dữ liệu đã được xử lý vào tệp CSV
 df_filtered.write.csv(OUTPUT_CSV_FILE, header=True, mode="overwrite")

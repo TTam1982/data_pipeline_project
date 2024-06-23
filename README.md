@@ -70,6 +70,9 @@ Data Engineer (Kỹ sư Dữ liệu) chịu trách nhiệm xây dựng, duy trì
 Apache Spark là một công cụ mạnh mẽ để xử lý dữ liệu lớn và là một lựa chọn phổ biến trong các case study về xử lý dữ liệu lớn.
 
 ### Cài đặt Apache Spark và PySpark
+Spark API SQL https://spark.apache.org/docs/3.0.0/api/python/pyspark.sql.html
+Code samples https://github.com/apache/spark/tree/master/examples/src/main/python
+
 
 1. **Cài đặt Java**:
    Spark yêu cầu Java để chạy. Đảm bảo rằng Java đã được cài đặt và cấu hình trên hệ thống của bạn. Bạn có thể kiểm tra bằng lệnh sau:
