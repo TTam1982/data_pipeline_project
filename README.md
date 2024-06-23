@@ -3,12 +3,12 @@
 Data Engineer (Kỹ sư Dữ liệu) chịu trách nhiệm xây dựng, duy trì và quản lý cơ sở hạ tầng dữ liệu của một tổ chức. Công việc hằng ngày của họ thường bao gồm:
 
 1. **Thiết Kế và Xây Dựng Hệ Thống Dữ Liệu:**
-   - Thiết kế và xây dựng kiến trúc dữ liệu.
+   - Thiết kế và xây dựng kiến trúc dữ liệu. => OK
    - Tạo và duy trì các hệ thống dữ liệu như kho dữ liệu (data warehouse) và hồ dữ liệu (data lake).
-   - Đảm bảo tích hợp dữ liệu từ nhiều nguồn khác nhau.
+   - Đảm bảo tích hợp dữ liệu từ nhiều nguồn khác nhau. => OK
 
 2. **Quản Lý Luồng Dữ Liệu:**
-   - Thiết lập và quản lý các pipeline dữ liệu để di chuyển dữ liệu từ nguồn gốc đến nơi lưu trữ.
+   - Thiết lập và quản lý các pipeline dữ liệu để di chuyển dữ liệu từ nguồn gốc đến nơi lưu trữ. 
    - Đảm bảo tính toàn vẹn và chất lượng của dữ liệu trong quá trình di chuyển.
 
 3. **Tối Ưu Hóa và Bảo Trì Hệ Thống:**
@@ -16,8 +16,8 @@ Data Engineer (Kỹ sư Dữ liệu) chịu trách nhiệm xây dựng, duy trì
    - Bảo trì và cập nhật các hệ thống để đảm bảo tính ổn định và hiệu quả.
 
 4. **Hỗ Trợ Phân Tích Dữ Liệu:**
-   - Hỗ trợ các nhà phân tích dữ liệu và nhà khoa học dữ liệu bằng cách cung cấp dữ liệu sạch và có cấu trúc.
-   - Xây dựng và duy trì các dashboard và công cụ báo cáo.
+   - Hỗ trợ các nhà phân tích dữ liệu và nhà khoa học dữ liệu bằng cách cung cấp dữ liệu sạch và có cấu trúc. => OK
+   - Xây dựng và duy trì các dashboard và công cụ báo cáo. => OK
 
 5. **Bảo Mật và Tuân Thủ:**
    - Đảm bảo an ninh dữ liệu và tuân thủ các quy định về bảo vệ dữ liệu.
@@ -26,9 +26,9 @@ Data Engineer (Kỹ sư Dữ liệu) chịu trách nhiệm xây dựng, duy trì
 6. **Các công việc khác của Data Engineer**
    - Design and implement scalable, reliable data pipeline including ingestion, process, and analysis of data coming from diverse sources.
    - Develop data models, schemas and data Warehouse.
-   - Develop data services to enable user-facing analytics and model inference.
-   - Collaborate with Data Scientists to design and deploy a machine learning pipeline to enable quick life-cycle release.
-   - Collaborate with Leaders and Data Analysts to define key metrics and prepare data pipelines to help an internal team perform self-service on the analytical platform.
+   - Develop data services to enable user-facing analytics and model inference. => OK
+   - Collaborate with Data Scientists to design and deploy a machine learning pipeline to enable quick life-cycle release. => OK
+   - Collaborate with Leaders and Data Analysts to define key metrics and prepare data pipelines to help an internal team perform self-service on the analytical platform. => OK
    - Building and maintaining ETL pipelines (Airflow, Nifi)
    - Implement and monitor data quality checks to maintain high standards of data quality.
    - Experience with DataOps
@@ -83,8 +83,8 @@ Data Engineer (Kỹ sư Dữ liệu) chịu trách nhiệm xây dựng, duy trì
 Apache Spark là một công cụ mạnh mẽ để xử lý dữ liệu lớn và là một lựa chọn phổ biến trong các case study về xử lý dữ liệu lớn.
 
 ### Cài đặt Apache Spark và PySpark
-Spark API SQL https://spark.apache.org/docs/3.0.0/api/python/pyspark.sql.html
-Code samples https://github.com/apache/spark/tree/master/examples/src/main/python
+   Spark API SQL https://spark.apache.org/docs/3.0.0/api/python/pyspark.sql.html
+   Code samples https://github.com/apache/spark/tree/master/examples/src/main/python
 
 
 1. **Cài đặt Java**:
@@ -123,15 +123,14 @@ Trong các dự án dữ liệu lớn, Spark thường được sử dụng đ�
 2. **Chuyển đổi và làm sạch dữ liệu**:
    - Loại bỏ các giá trị bị thiếu hoặc không hợp lệ.
    - Chuyển đổi các định dạng dữ liệu.
-     - Remove giá trị null
+     - Remove giá trị null => OK
      - ?
 
 3. **Phân tích dữ liệu**:
-   - Tính toán các số liệu thống kê.
-   - Thực hiện các truy vấn phân tích phức tạp.
-     - ?
+   - Tính toán các số liệu thống kê. => OK
+   - Thực hiện các truy vấn phân tích phức tạp. => OK
 
 4. **Học máy và dự đoán**:
    - Áp dụng các mô hình học máy để dự đoán hoặc phân loại.
-     - Đọc và dự đoán trend
-     - 
+     - Đọc và dự đoán trend => OK
+     - Detect anamoly => OK
